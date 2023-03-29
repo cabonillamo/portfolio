@@ -35,8 +35,7 @@ function efectoHabilidades() {
         document.getElementById("html").classList.add("barra-progreso1");
         document.getElementById("js").classList.add("barra-progreso2");
         document.getElementById("bd").classList.add("barra-progreso3");
-        document.getElementById("ps").classList.add("barra-progreso4");
-        document.getElementById("bd").classList.add("barra-progreso3");
-        document.getElementById("bd").classList.add("barra-progreso3");
+        document.getElementById("asp").classList.add("barra-progreso4");
+       
     }
 }
