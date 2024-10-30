@@ -197,7 +197,7 @@
             margin-bottom: 12px;
         }
         
-        #sobremi .sobremi a {
+        #sobremi .sobremi button {
             display: inline-block;
             text-decoration: none;
             color: #000;
@@ -208,10 +208,65 @@
             transition: .5s;
         }
         
-        #sobremi .sobremi a:hover {
+        #sobremi .sobremi button:hover {
             background-color: #ff5080;
             color: #fff;
         }
+
+        /* Estilo para el modal */
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+}
+
+.modal-contenido {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px; /* Puedes ajustar el ancho según tu preferencia */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.cerrar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-contenido a {
+    display: block;
+    margin: 10px 0;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
+
+.modal-contenido a:hover {
+    background-color: #ff5080;
+    color: #fff;
+}
+
      
         /* *********************/
         /* seccion S K I L L S */

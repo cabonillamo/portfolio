@@ -78,18 +78,36 @@
         <h2>Hola, Soy <span>Carlo Bonilla</span></h2>
         <h3>Ingeniero de Software</h3>
         <p>
-          Mi nombre completo es Carlo Alejandro Bonilla Morales, vivo en
-          Alajuela. Soy estudiante activo de la Universidad Técnica Nacional. Mi
-          deporte favorito es el futbol, o ir al gym ya que es desestresante y
-          despues de eso puedo realizar un buen código para un sistema. Ademas
-          soy muy autodidacta.
+          Soy Carlo Alejandro Bonilla Morales, un apasionado estudiante de
+          Ingeniería de Software, con un año de experiencia laboral en el campo.
+          Resido en Alajuela y me entusiasma la tecnología, especialmente en el
+          desarrollo de aplicaciones con .NET. Mi enfoque autodidacta me impulsa
+          a buscar constantemente nuevas oportunidades de aprendizaje y
+          crecimiento profesional. Además de mis estudios, disfruto del fútbol y
+          del gimnasio, actividades que considero fundamentales para mantener un
+          equilibrio entre la mente y el cuerpo, lo que me permite ser más
+          productivo y creativo en mis proyectos de programación.
         </p>
 
-        <a
-          href="CV/CV Carlo Bonilla (English).pdf"
-          download="Descargar CV Carlo Bonilla"
-          >Descargar CV</a
-        >
+        <button id="descargarCV" onclick="mostrarModal()">Descargar CV</button>
+
+        <!-- Modal -->
+        <div id="modalCV" class="modal" style="display: none">
+          <div class="modal-contenido">
+            <span class="cerrar" onclick="cerrarModal()">&times;</span>
+            <h2>Selecciona el formato de tu CV</h2>
+            <a
+              href="CV/CV Carlo Bonilla (Español).pdf"
+              download="Descargar CV Carlo Bonilla Español"
+              >Descargar CV en Español</a
+            >
+            <a
+              href="CV/CV Carlo Bonilla (English).pdf"
+              download="Descargar CV Carlo Bonilla English"
+              >Descargar CV en Inglés</a
+            >
+          </div>
+        </div>
       </div>
     </section>
 

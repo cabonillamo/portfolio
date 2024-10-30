@@ -39,3 +39,24 @@ function efectoHabilidades() {
        
     }
 }
+
+
+// Función para mostrar el modal
+function mostrarModal() {
+    var modal = document.getElementById("modalCV");
+    modal.style.display = "flex"; // Cambia a "flex" para centrar el contenido
+}
+
+// Función para cerrar el modal
+function cerrarModal() {
+    var modal = document.getElementById("modalCV");
+    modal.style.display = "none";
+}
+
+// Cierra el modal si se hace clic fuera de él
+window.onclick = function(event) {
+    var modal = document.getElementById("modalCV");
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
